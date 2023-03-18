@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="defizzz.PowerCollections" Version="0.0.1-beta" />
+    <PackageReference Include="defizzz.PowerCollections" Version="0.0.2-beta" />
   </ItemGroup>
 
 </Project>
