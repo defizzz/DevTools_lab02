@@ -28,7 +28,7 @@ namespace Wintellect.PowerCollections
             get { return Count == Capacity; }
         }
 
-        public Stack(int size)
+        public Stack(int size = 100)
         {
             _memory = new T[size];
             index = -1;
