@@ -22,7 +22,7 @@ jobs:
       run: dotnet pack
       working-directory: PowerCollections
       
-    - name: dotnet nuget push -c Release
+    - name: dotnet nuget push --c Release
       run: dotnet nuget push "PowerCollections\bin\Release\*.nupkg" -k ${{ secrets.GITHUB_TOKEN }} -s https://nuget.pkg.github.com/defizzz/index.json --skip-duplicate
       
     - name: Get prefix
