@@ -17,7 +17,7 @@ using System.Collections.Generic;
 
 
 namespace Wintellect.PowerCollections
-
+{
     /// <summary>
     /// The BinaryPredicate delegate type  encapsulates a method that takes two
     /// items of the same type, and returns a boolean value representating 
